@@ -83,8 +83,8 @@ header .nav-lists .nav-list.active {
 /* BREAK POINT iphone7*/
 @media screen and (max-width: 769px) {
   .loader {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
   /* HEADER */
   header .nav-container .nav-lists {
