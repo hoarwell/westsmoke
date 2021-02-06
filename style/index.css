@@ -1,0 +1,26 @@
+@import "header.css";
+
+/* SECTION */
+section {
+  height: 90%;
+}
+
+section .section-container img {
+  height: 83.3vh;
+  margin: 18px 0 0 150px;
+}
+
+/* BREAK POINT iphone7 */
+@media screen and (max-width: 769px) {
+  /* SECTION */
+  section {
+    display: flex;
+    justify-content: center;
+  }
+
+  section .section-container img {
+    width: 78vw;
+    height: auto;
+    margin-left: 0;
+  }
+}

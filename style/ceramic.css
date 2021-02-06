@@ -1,0 +1,35 @@
+@import "header.css";
+
+/* SECTION */
+section .image-container {
+  overflow: auto;
+  display: inline;
+  white-space: nowrap;
+}
+
+section .image-container .image-slide {
+  width: 19080px;
+}
+
+section .image-container > img {
+  vertical-align: bottom;
+}
+
+@media screen and (max-width: 769px) {
+  /* SECTION */
+  section .image-container {
+    display: flex;
+  }
+
+  section .image-container .image-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section .image-container .image-slide img {
+    width: 70%;
+    height: auto;
+  }
+}

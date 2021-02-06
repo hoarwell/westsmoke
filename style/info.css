@@ -1,0 +1,67 @@
+@import "header.css";
+
+a,
+p {
+  line-height: 1.125;
+}
+
+/* SECTION */
+.section-container {
+  display: flex;
+  margin: 15px 4.2vw 70px 4.2vw;
+  padding: 0;
+  width: 91.6vw;
+}
+
+.section-container .info-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 80px 35px 0;
+  width: 17.86vw;
+}
+
+.section-container .info-content p {
+  margin-bottom: 1rem;
+}
+
+.section-container .info-content .bio {
+  margin-top: 1.2rem;
+}
+
+.section-container .info-content .shops {
+  margin-top: 2rem;
+}
+
+.section-container .image-container {
+  max-width: 530px;
+}
+
+.section-container .image-container img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 769px) {
+  /* SECTION */
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw 0 0 0;
+  }
+
+  .section-container .info-content {
+    width: 70vw;
+    margin: 0 10px 35px 0;
+  }
+
+  .section-container .info-content p,
+  .section-container .info-content a {
+    font-size: 0.8rem;
+    margin-bottom: 0.6rem;
+  }
+  .section-container .image-container {
+    display: none;
+  }
+}

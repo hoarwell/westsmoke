@@ -1,0 +1,108 @@
+/* COMMON */
+@font-face {
+  font-family: "times";
+  font-weight: normal;
+  font-style: normal;
+  src: url("font/times.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: times;
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+/* LOADING */
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* HEADER */
+header {
+  height: 10%;
+}
+
+header .nav-container {
+  margin-left: 8.93vw;
+  margin-bottom: 1rem;
+  position: fixed;
+}
+
+header .nav-container .nav-lists {
+  display: flex;
+  flex-direction: row;
+}
+
+header .nav-container .nav-lists .nav-list {
+  margin: 0 20px 0 0;
+}
+
+header .nav-container .nav-lists .nav-list a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 4.375;
+  letter-spacing: 0.3125em; /* 5px */
+  padding: 0 0 1px 0;
+}
+
+header .nav-lists .nav-list a:active,
+header .nav-lists .nav-list.active {
+  font-weight: 700;
+}
+
+/* BREAK POINT iphone7*/
+@media screen and (max-width: 769px) {
+  /* HEADER */
+  header .nav-container .nav-lists {
+    margin-bottom: 0;
+  }
+
+  header .nav-container .nav-lists .nav-list {
+    margin: 0 1rem 0 0;
+  }
+
+  header .nav-container .nav-lists .nav-list a {
+    font-size: 0.8rem;
+    line-height: 4.375;
+    letter-spacing: 0.3125em; /* 5px */
+    padding: 0 0 1px 0;
+  }
+}
+
+/* BREAK POINT iphone5s */
+@media screen and (max-width: 320px) {
+  /* HEADER */
+  header .nav-container .nav-lists .nav-list a {
+    font-size: 0.6rem;
+  }
+}
