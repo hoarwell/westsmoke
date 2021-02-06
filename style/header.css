@@ -36,7 +36,7 @@ a {
   left: 5px;
   width: 70px;
   height: 70px;
-  animation: spin 1s linear infinite;
+  animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
