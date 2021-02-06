@@ -1,72 +1,26 @@
-@font-face {
-  font-family: "times";
-  font-weight: normal;
-  font-style: normal;
-  src: url("font/times.ttf");
+@import "header.css";
+
+/* SECTION */
+section {
+  height: 90%;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: times;
-  width: 100%;
-  height: 100%;
-}
-
-/* top navigation menu */
-header {
-  width: 100%;
-}
-
-header .nav-container .nav-lists {
-  display: flex;
-  flex-direction: row;
-  width: 100vh;
-  margin-left: 8.93vw;
-  margin-bottom: 35px;
-}
-
-header .nav-container .nav-lists .nav-list {
-  list-style: none;
-  margin: 0 20px 0 0;
-}
-
-header .nav-container .nav-lists .nav-list a {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 4.375;
-  letter-spacing: 0.3125em; /* 5px */
-  padding: 0 0 1px 0;
-}
-
-header .nav-lists .nav-list a:active,
-header .nav-lists .nav-list.active {
-  font-weight: 700;
-}
-
-/* main home section also one image */
 section .section-container img {
-  aspect-ratio: auto 500/500;
-  margin-left: 150px;
+  height: 83.3vh;
+  margin: 18px 0 0 150px;
 }
 
-/* Responsive Break-point*/
+/* BREAK POINT iphone7 */
 @media screen and (max-width: 769px) {
-  section .section-container {
+  /* SECTION */
+  section {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
 
   section .section-container img {
-    width: 70%;
+    width: 78vw;
+    height: auto;
     margin-left: 0;
   }
 }
