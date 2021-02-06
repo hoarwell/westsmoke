@@ -1,4 +1,4 @@
-# H1 WESTSMOKE
+# WESTSMOKE
 
 ## Welcome to westsmoke by youn9jo
 
