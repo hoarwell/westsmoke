@@ -1,4 +1,6 @@
-Welcome to westsmoke by youn9jo
+# H1 WESTSMOKE
+
+# H2 Welcome to westsmoke by youn9jo
 
 eastsmoke shop clone coding with responsive web 
 
