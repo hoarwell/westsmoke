@@ -1,8 +1,10 @@
 # H1 WESTSMOKE
 
-# H2 Welcome to westsmoke by youn9jo
+## Welcome to westsmoke by youn9jo
 
 eastsmoke shop clone coding with responsive web 
+
+Sat 6 Feb 2021
 
 original website
 https://eastsmoke.info/
