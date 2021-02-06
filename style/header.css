@@ -29,6 +29,22 @@ a {
   color: black;
 }
 
+/* LOADING */
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* HEADER */
 header {
   height: 10%;
