@@ -32,8 +32,8 @@ a {
 /* LOADING */
 .loader {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 5px;
+  left: 5px;
   width: 70px;
   height: 70px;
   animation: spin 1s linear infinite;
