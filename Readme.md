@@ -1,8 +1,8 @@
 # WESTSMOKE
 
-## Welcome to westsmoke by youn9jo
+westsmoke by youn9jo
 
-eastsmoke shop clone coding with responsive web 
+all based on eastsmoke also added responsive styling
 
 Sat 6 Feb 2021
 
