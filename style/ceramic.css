@@ -1,6 +1,6 @@
 @import "header.css";
 
-/* SECTION */
+/* CERAMIC SECTION */
 section .image-container {
   overflow: auto;
   display: inline;
@@ -9,14 +9,17 @@ section .image-container {
 
 section .image-container .image-slide {
   width: 19080px;
+  margin-left: 9vw;
+  margin-top: 2vh;
 }
 
-section .image-container > img {
+section .image-container img {
   vertical-align: bottom;
+  margin-right: 1.7vw;
 }
 
 @media screen and (max-width: 769px) {
-  /* SECTION */
+  /* CERAMIC SECTION */
   section .image-container {
     display: flex;
   }
@@ -26,6 +29,7 @@ section .image-container > img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 0px;
   }
 
   section .image-container .image-slide img {

@@ -4,7 +4,7 @@
   line-height: 1.1;
 }
 
-/* SECTION */
+/* BOOK SECTION */
 section .section-content {
   display: inline-block;
   overflow: auto;
@@ -41,7 +41,7 @@ section .section-content .content-slide .img-content img {
 }
 
 @media screen and (max-width: 769px) {
-  /* SECTION */
+  /* BOOK SECTION */
   section .section-content .content-slide {
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ section .section-content .content-slide .img-content img {
     margin: 0px;
   }
 
-  /* TEXT CONTENT */
+  /* BOOK TEXT CONTENT */
   section .section-content .content-slide .text-content {
     margin: 8vw 8vw;
     padding: 0;
@@ -67,7 +67,7 @@ section .section-content .content-slide .img-content img {
     font-size: 0.8rem;
   }
 
-  /* IMAGE CONTENT */
+  /* BOOK IMAGE CONTENT */
 
   section .section-content .content-slide .img-content {
     display: flex;

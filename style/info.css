@@ -5,7 +5,7 @@ p {
   line-height: 1.125;
 }
 
-/* SECTION */
+/* INFO SECTION */
 .section-container {
   display: flex;
   margin: 15px 4.2vw 70px 4.2vw;
@@ -42,7 +42,7 @@ p {
 }
 
 @media screen and (max-width: 769px) {
-  /* SECTION */
+  /* INFO SECTION */
   .section-container {
     display: flex;
     flex-direction: column;

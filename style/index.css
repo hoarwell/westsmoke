@@ -1,6 +1,6 @@
 @import "header.css";
 
-/* SECTION */
+/* MAIN SECTION */
 section {
   height: 90%;
 }
@@ -12,7 +12,7 @@ section .section-container img {
 
 /* BREAK POINT iphone7 */
 @media screen and (max-width: 769px) {
-  /* SECTION */
+  /* MAIN SECTION */
   section {
     display: flex;
     justify-content: center;

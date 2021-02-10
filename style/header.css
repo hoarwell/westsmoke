@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: times;
+  font-family: times, sans-serif;
   width: 100vw;
   height: 100vh;
   font-size: 16px;
@@ -82,9 +82,10 @@ header .nav-lists .nav-list.active {
 
 /* BREAK POINT iphone7*/
 @media screen and (max-width: 769px) {
+  /* LOADING */
   .loader {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   /* HEADER */
   header .nav-container .nav-lists {
